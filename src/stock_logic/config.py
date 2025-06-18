@@ -11,12 +11,12 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # === PENGATURAN PATH DIREKTORI ===
 # Mendefinisikan path absolut untuk direktori 'data' dan 'outputs'.
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
-OUTPUT_PARENT_DIR = os.path.join(PROJECT_ROOT, 'outputs')
+DATA_DIR = os.path.join(PROJECT_ROOT, '../data')
+OUTPUT_PARENT_DIR = os.path.join(PROJECT_ROOT, '../outputs')
 
 # Mendefinisikan path untuk sub-direktori di dalam 'outputs'.
-MODEL_OUTPUT_SUBDIR = os.path.join(OUTPUT_PARENT_DIR, 'models') # Untuk menyimpan file model
-PLOT_OUTPUT_SUBDIR = os.path.join(OUTPUT_PARENT_DIR, 'plots')   # Untuk menyimpan file gambar/plot
+MODEL_OUTPUT_SUBDIR = os.path.join(OUTPUT_PARENT_DIR, '../outputs/models') # Untuk menyimpan file model
+PLOT_OUTPUT_SUBDIR = os.path.join(OUTPUT_PARENT_DIR, '../outputs/plots')   # Untuk menyimpan file gambar/plot
 
 # === PEMBUATAN DIREKTORI OTOMATIS ===
 # Blok kode ini memeriksa apakah direktori yang dibutuhkan sudah ada.
